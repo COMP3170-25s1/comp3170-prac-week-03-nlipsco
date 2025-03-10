@@ -1,6 +1,6 @@
 #version 410
 
-in vec4 a_position;	// vertex position as a homogenous vector in NDC 
+uniform vec4 a_position;	// vertex position as a homogenous vector in NDC 
 in vec3 a_colour; // vertex colour RGB
 
 out vec3 v_colour; // to fragment shader
